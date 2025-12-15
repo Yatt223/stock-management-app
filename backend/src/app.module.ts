@@ -7,6 +7,11 @@ import { RolesModule } from './roles/roles.module';
 import { CategoriesModule } from './categories/categories.module';
 import { ProductsModule } from './products/products.module';
 import { ClientsModule } from './clients/clients.module';
+import { SuppliersModule } from './suppliers/suppliers.module';
+import { PurchasesModule } from './purchases/purchases.module';
+import { SalesModule } from './sales/sales.module';
+import { InvoicesModule } from './invoices/invoices.module';
+import { ExpensesModule } from './expenses/expenses.module';
 
 @Module({
   imports: [
@@ -27,6 +32,11 @@ import { ClientsModule } from './clients/clients.module';
     CategoriesModule,
     ProductsModule,
     ClientsModule,
+    SuppliersModule,
+    PurchasesModule,
+    SalesModule,
+    InvoicesModule,
+    ExpensesModule,
   ],
 })
 export class AppModule {}
